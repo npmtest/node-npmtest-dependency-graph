@@ -1,6 +1,6 @@
 # npmtest-dependency-graph
 
-#### test coverage for  [dependency-graph (v0.5.0)](https://github.com/jriecken/dependency-graph#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dependency-graph.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dependency-graph) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dependency-graph.svg)](https://travis-ci.org/npmtest/node-npmtest-dependency-graph)
+#### basic test coverage for  [dependency-graph (v0.5.0)](https://github.com/jriecken/dependency-graph#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dependency-graph.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dependency-graph) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dependency-graph.svg)](https://travis-ci.org/npmtest/node-npmtest-dependency-graph)
 
 #### Simple dependency graph.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dependency-graph/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dependency-graph/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dependency-graph/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dependency-graph/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dependency-graph/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dependency-graph/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dependency-graph/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dependency-graph/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dependency-graph/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dependency-graph/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dependency-graph/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dependency-graph/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
     "scripts": {
         "test": "jasmine-node specs"
     },
-    "version": "0.5.0"
+    "version": "0.5.0",
+    "bin": {}
 }
 ```
 
